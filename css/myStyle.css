@@ -14,9 +14,7 @@ p {
   background-image: url('../images/intro-resized.jpg');
   background-color: #ffffff;
   background-attachment: fixed;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  height: 100vh;
 }
 
 #intro h1{
