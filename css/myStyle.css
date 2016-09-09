@@ -1,7 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
+body, html {
+  height: 100%;
+  font-family: "Open Sans"
+}
+
 p {
-  font-family: "Open Sans";
   color: white;
 }
 
@@ -13,7 +17,7 @@ h1 {
 
 #intro {
   background-image: url('../images/intro-resized.jpg');
-  vertical-align: middle;
+  height: 100%;
 }
 
 #intro img{
