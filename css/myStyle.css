@@ -6,13 +6,15 @@ body {
 }
 
 #intro {
-  height: 100%;
-  background-image: url("../images/intro-resized.jpg");
-  background-attachment: fixed;
+  background: url('../images/intro-resized.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #intro h1 {
   font-family: "Open Sans";
-  font-size: 24em;
+  font-size: 16em;
   color: white;
 }
