@@ -1,8 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
 body {
   margin:0;
   padding: 0;
-  height: 100%;
 }
 
 p {
@@ -14,10 +14,9 @@ p {
   background-image: url('../images/intro-resized.jpg');
   background-color: #ffffff;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #intro h1{
