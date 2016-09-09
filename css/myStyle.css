@@ -5,7 +5,7 @@ p {
   color: white;
 }
 
-#intro h1{
+h1 {
   font-family: "Open Sans";
   font-size: 16em;
   color: white;
@@ -14,6 +14,7 @@ p {
 
 #intro {
   background-image: url('../images/intro-resized.jpg');
+  padding: 0px 60px 0px 60px;
 }
 
 #intro img{
