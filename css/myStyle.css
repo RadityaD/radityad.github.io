@@ -6,7 +6,7 @@ body {
 }
 
 #intro {
-  background: url('../images/intro-resized.jpg') no-repeat center center fixed;
+  background: #ffffff url('../images/intro-resized.jpg') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
