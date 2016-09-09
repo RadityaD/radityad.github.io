@@ -13,7 +13,7 @@ h1 {
 
 #intro {
   background-image: url('../images/intro-resized.jpg');
-  padding: 0px 60px 0px 60px;
+  vertical-align: middle;
 }
 
 #intro img{
