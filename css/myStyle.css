@@ -15,7 +15,7 @@ body {
   background-size: cover;
 }
 
-#intro h1 {
+#intro h1 p{
   font-family: "Open Sans";
   font-size: 16em;
   color: white;
