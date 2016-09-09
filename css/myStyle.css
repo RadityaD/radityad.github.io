@@ -44,3 +44,8 @@ h1 {
   display: flex;
   align-items: center;
 }
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
