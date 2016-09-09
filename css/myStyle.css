@@ -5,19 +5,18 @@ p {
   color: white;
 }
 
-#intro {
-  background-image: url('../images/intro-resized.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-}
-
 #intro h1{
   font-family: "Open Sans";
   font-size: 16em;
   color: white;
 }
 
+
+#intro {
+  background-image: url('../images/intro-resized.jpg');
+}
+
 #intro img{
-  border-radius: 100px;
+  border-radius: 200px;
   width: 20%;
 }
