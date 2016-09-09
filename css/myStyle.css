@@ -32,3 +32,7 @@ h1 {
 #intro>.container {
   display: flex;
 }
+
+#portofolio {
+  background-color: #3cbd83;
+}
