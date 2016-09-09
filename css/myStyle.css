@@ -23,3 +23,7 @@ p {
   font-size: 16em;
   color: white;
 }
+
+#intro img{
+  radius: 100px;
+}
