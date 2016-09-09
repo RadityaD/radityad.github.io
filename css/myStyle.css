@@ -5,6 +5,12 @@ body {
   height: 100%;
 }
 
+p {
+  font-family: "Open Sans";
+  font-size: 16em;
+  color: white;
+}
+
 #intro {
   background-image: url('../images/intro-resized.jpg');
   background-color: #ffffff;
@@ -15,7 +21,7 @@ body {
   background-size: cover;
 }
 
-#intro h1 p{
+#intro h1{
   font-family: "Open Sans";
   font-size: 16em;
   color: white;
