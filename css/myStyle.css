@@ -16,7 +16,7 @@ h1 {
 }
 
 #intro {
-  display: flex;
+  position: absolute;
   height: 100%;
   background-image: url('../images/intro-resized.jpg');
   -webkit-background-size: cover;
