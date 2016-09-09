@@ -5,7 +5,7 @@ body {
 
 #intro {
   height: 100%;
-  background-image: url("../intro-resized.jpg");
+  background-image: url("../images/intro-resized.jpg");
   background-attachment: fixed;
 }
 
