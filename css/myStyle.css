@@ -37,8 +37,10 @@ h1 {
   background-color: #3cbd83;
 }
 
-.absolute-center {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
 }
