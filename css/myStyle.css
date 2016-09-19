@@ -1,11 +1,22 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
-body, html {
+html {
   height: 100%;
   font-family: "Open Sans"
 }
 
+body {
+  height: 100%;
+  background-image: url('../images/intro-resized.jpg');
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 p {
+  font-size: 20px;
   color: white;
 }
 
@@ -15,37 +26,47 @@ h1 {
   color: white;
 }
 
+#navigations a {
+  color: white;
+}
+
 #intro {
   height: 100%;
-  background-image: url('../images/intro-resized.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  padding: 0px 200px 0px 200px;
+  background-color: transparent;
+}
+
+#intro1 {
+  background-color:red;
+}
+
+#intro2 {
+  background-color:green;
 }
 
 #intro img{
-  border-radius: 200px;
-  width: 20%;
-}
-
-#intro>.container {
-  display: flex;
 }
 
 #portofolio {
+  height: 100%;
   background-color: #3cbd83;
 }
 
+.stuck {
+  position:fixed;
+  margin: auto;
+  width: 50%;
+  top:0;
+}
+
 .vertical-center {
-  min-height: 100%;
-  min-height: 100vh;
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   align-items: center;
 }
 
-.vertical-align {
-    display: flex;
-    align-items: center;
+.undercons {
+
 }
