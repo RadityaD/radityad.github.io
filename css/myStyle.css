@@ -24,6 +24,10 @@ body {
   background-size: cover;*/
 }
 
+a,a:hover,a:visited {
+  color: white;
+}
+
 h1 {
   font-size: 12em;
 }
@@ -84,4 +88,12 @@ p {
   border: solid 2px;
   border-radius: 10px;
   font-size: 5em;
+}
+
+.socmedText {
+  margin-bottom: 10px;
+}
+
+.row {
+  margin-bottom: 10px;
 }
